@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Local Assistant</string>
+    <style name="Theme.LocalAssistant" parent="Theme.AppCompat.Light.NoActionBar">
+    </style>
+</resources>

@@ -1,0 +1,260 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/sharon/robo_andy/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /home/sharon/robo_andy/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /home/sharon/robo_andy/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /home/sharon/robo_andy/app/src/main/AndroidManifest.xml:1:1-26:12
+MERGED from [com.google.android.material:material:1.9.0] /home/sharon/.gradle/caches/9.7.1/transforms/6c14050a7d2bd4ab3768080072b3f0a2/transformed/material-1.9.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/sharon/.gradle/caches/9.7.1/transforms/330720b8512e9285487c7804a49d8c8f/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/sharon/.gradle/caches/9.7.1/transforms/861cee24c40e009e162d3429c3c90711/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] /home/sharon/.gradle/caches/9.7.1/transforms/ddb0891836a151b55473167971d896ae/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.mediapipe:tasks-genai:0.10.35] /home/sharon/.gradle/caches/9.7.1/transforms/350f981c8dff75cf13e6622e2a70b1bb/transformed/tasks-genai-0.10.35/AndroidManifest.xml:2:1-26:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/sharon/.gradle/caches/9.7.1/transforms/cfb2d2f68912b81aa99eca4187897728/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.6] /home/sharon/.gradle/caches/9.7.1/transforms/92588dcb00a3801ce67d7ab4f48442fd/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.6.0] /home/sharon/.gradle/caches/9.7.1/transforms/cbfaca68a99e4897630fee74cef1a4f5/transformed/activity-1.6.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/sharon/.gradle/caches/9.7.1/transforms/2f02872fa084a675eb8924d94a93ad35/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/sharon/.gradle/caches/9.7.1/transforms/9784424ba41b4cc427a39cdad2a63931/transformed/emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/sharon/.gradle/caches/9.7.1/transforms/a62e12420ae38d90f2fb61546b1ccae5/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/sharon/.gradle/caches/9.7.1/transforms/1697ac9ec055b4de20062177bc2fe6ae/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/sharon/.gradle/caches/9.7.1/transforms/cb7445ae870314dacc31901df3977934/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /home/sharon/.gradle/caches/9.7.1/transforms/605680ab99f589723f549d864265d0d3/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/sharon/.gradle/caches/9.7.1/transforms/bb54d5e13e471876d608060853160f76/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/sharon/.gradle/caches/9.7.1/transforms/1bfc2ca5f50d704088a02b9bc1d9f040/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/sharon/.gradle/caches/9.7.1/transforms/9d8cdf9503846b2b2482528e7a59e442/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/sharon/.gradle/caches/9.7.1/transforms/bac8565985ef6a90ad6cf76b1abbf368/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /home/sharon/.gradle/caches/9.7.1/transforms/6cb4a14304d536e1d676e680038cbc79/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /home/sharon/.gradle/caches/9.7.1/transforms/2dfb4bcaac21a4b02cfda3ba3be1256b/transformed/lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.9.0] /home/sharon/.gradle/caches/9.7.1/transforms/b44350edf98248e051fe0e2aa3454803/transformed/core-ktx-1.9.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/sharon/.gradle/caches/9.7.1/transforms/a87d3515c4324a1ad7da5ce1c52d13d2/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/sharon/.gradle/caches/9.7.1/transforms/c6628a7642235ba73fcfd54abe1782c3/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] /home/sharon/.gradle/caches/9.7.1/transforms/3efbd4658ec4ae1a2845b7aaddb1e0ca/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.9.0] /home/sharon/.gradle/caches/9.7.1/transforms/76f345f88169b111597b4d3ac8c723a0/transformed/core-1.9.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/sharon/.gradle/caches/9.7.1/transforms/4eb931a3181e6e86893be571a7d2bc54/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/sharon/.gradle/caches/9.7.1/transforms/078177aa5f84b52647320998dbd1626f/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /home/sharon/.gradle/caches/9.7.1/transforms/b54fea5dd66d66e8cab530b2b1941ce1/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.2.0] /home/sharon/.gradle/caches/9.7.1/transforms/0f423d755d23642924ba644b3a796252/transformed/savedstate-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/sharon/.gradle/caches/9.7.1/transforms/4dd4fdf7a1132c1e7960a16cf80c0850/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/sharon/.gradle/caches/9.7.1/transforms/0a6252fc9d74b805c43855732b6e31b6/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/sharon/.gradle/caches/9.7.1/transforms/c0cf7564ad9a2ba1c095d2195494bdbb/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/sharon/.gradle/caches/9.7.1/transforms/99bb7fe595776cfd9d2af5f2c2895537/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/sharon/.gradle/caches/9.7.1/transforms/544f18873f62130b61ad70b689d58ff3/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /home/sharon/.gradle/caches/9.7.1/transforms/be6bad4cd834c530a9e168f1a592295f/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/sharon/.gradle/caches/9.7.1/transforms/6845685335ef56cc112d7df8278e7833/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/sharon/.gradle/caches/9.7.1/transforms/84833e27c4091718c0151382c4ad887a/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/sharon/.gradle/caches/9.7.1/transforms/81a0e2a2c5894527fa3f17407362a1cf/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/sharon/.gradle/caches/9.7.1/transforms/9fe6cd59f372f485c55648e81ff80706/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/sharon/.gradle/caches/9.7.1/transforms/c54fe44cbb55e2b58a6dbe35b48fd81c/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/sharon/.gradle/caches/9.7.1/transforms/e219090f5d6cf8906e91ea4d1155182b/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
+	package
+		INJECTED from /home/sharon/robo_andy/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/sharon/robo_andy/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/sharon/robo_andy/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/sharon/robo_andy/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/sharon/robo_andy/app/src/main/AndroidManifest.xml:3:5-67
+	android:name
+		ADDED from /home/sharon/robo_andy/app/src/main/AndroidManifest.xml:3:22-64
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /home/sharon/robo_andy/app/src/main/AndroidManifest.xml:4:5-71
+	android:name
+		ADDED from /home/sharon/robo_andy/app/src/main/AndroidManifest.xml:4:22-68
+uses-permission#android.permission.CAMERA
+ADDED from /home/sharon/robo_andy/app/src/main/AndroidManifest.xml:5:5-65
+	android:name
+		ADDED from /home/sharon/robo_andy/app/src/main/AndroidManifest.xml:5:22-62
+application
+ADDED from /home/sharon/robo_andy/app/src/main/AndroidManifest.xml:7:5-24:19
+INJECTED from /home/sharon/robo_andy/app/src/main/AndroidManifest.xml:7:5-24:19
+MERGED from [com.google.android.material:material:1.9.0] /home/sharon/.gradle/caches/9.7.1/transforms/6c14050a7d2bd4ab3768080072b3f0a2/transformed/material-1.9.0/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.9.0] /home/sharon/.gradle/caches/9.7.1/transforms/6c14050a7d2bd4ab3768080072b3f0a2/transformed/material-1.9.0/AndroidManifest.xml:24:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/sharon/.gradle/caches/9.7.1/transforms/330720b8512e9285487c7804a49d8c8f/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/sharon/.gradle/caches/9.7.1/transforms/330720b8512e9285487c7804a49d8c8f/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [com.google.mediapipe:tasks-genai:0.10.35] /home/sharon/.gradle/caches/9.7.1/transforms/350f981c8dff75cf13e6622e2a70b1bb/transformed/tasks-genai-0.10.35/AndroidManifest.xml:9:5-24:19
+MERGED from [com.google.mediapipe:tasks-genai:0.10.35] /home/sharon/.gradle/caches/9.7.1/transforms/350f981c8dff75cf13e6622e2a70b1bb/transformed/tasks-genai-0.10.35/AndroidManifest.xml:9:5-24:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/sharon/.gradle/caches/9.7.1/transforms/9784424ba41b4cc427a39cdad2a63931/transformed/emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/sharon/.gradle/caches/9.7.1/transforms/9784424ba41b4cc427a39cdad2a63931/transformed/emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.9.0] /home/sharon/.gradle/caches/9.7.1/transforms/76f345f88169b111597b4d3ac8c723a0/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.9.0] /home/sharon/.gradle/caches/9.7.1/transforms/76f345f88169b111597b4d3ac8c723a0/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/sharon/.gradle/caches/9.7.1/transforms/078177aa5f84b52647320998dbd1626f/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/sharon/.gradle/caches/9.7.1/transforms/078177aa5f84b52647320998dbd1626f/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/sharon/.gradle/caches/9.7.1/transforms/0a6252fc9d74b805c43855732b6e31b6/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/sharon/.gradle/caches/9.7.1/transforms/0a6252fc9d74b805c43855732b6e31b6/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/sharon/.gradle/caches/9.7.1/transforms/99bb7fe595776cfd9d2af5f2c2895537/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/sharon/.gradle/caches/9.7.1/transforms/99bb7fe595776cfd9d2af5f2c2895537/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from /home/sharon/robo_andy/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.9.0] /home/sharon/.gradle/caches/9.7.1/transforms/76f345f88169b111597b4d3ac8c723a0/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /home/sharon/robo_andy/app/src/main/AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from /home/sharon/robo_andy/app/src/main/AndroidManifest.xml:10:9-41
+	android:roundIcon
+		ADDED from /home/sharon/robo_andy/app/src/main/AndroidManifest.xml:11:9-62
+	android:icon
+		ADDED from /home/sharon/robo_andy/app/src/main/AndroidManifest.xml:9:9-57
+	android:allowBackup
+		ADDED from /home/sharon/robo_andy/app/src/main/AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from /home/sharon/robo_andy/app/src/main/AndroidManifest.xml:13:9-65
+activity#com.local.assistant.MainActivity
+ADDED from /home/sharon/robo_andy/app/src/main/AndroidManifest.xml:15:9-22:20
+	android:exported
+		ADDED from /home/sharon/robo_andy/app/src/main/AndroidManifest.xml:17:13-36
+	android:name
+		ADDED from /home/sharon/robo_andy/app/src/main/AndroidManifest.xml:16:13-60
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/sharon/robo_andy/app/src/main/AndroidManifest.xml:18:13-21:29
+action#android.intent.action.MAIN
+ADDED from /home/sharon/robo_andy/app/src/main/AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from /home/sharon/robo_andy/app/src/main/AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/sharon/robo_andy/app/src/main/AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from /home/sharon/robo_andy/app/src/main/AndroidManifest.xml:20:27-74
+uses-sdk
+INJECTED from /home/sharon/robo_andy/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/sharon/robo_andy/app/src/main/AndroidManifest.xml
+INJECTED from /home/sharon/robo_andy/app/src/main/AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.9.0] /home/sharon/.gradle/caches/9.7.1/transforms/6c14050a7d2bd4ab3768080072b3f0a2/transformed/material-1.9.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.9.0] /home/sharon/.gradle/caches/9.7.1/transforms/6c14050a7d2bd4ab3768080072b3f0a2/transformed/material-1.9.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/sharon/.gradle/caches/9.7.1/transforms/330720b8512e9285487c7804a49d8c8f/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/sharon/.gradle/caches/9.7.1/transforms/330720b8512e9285487c7804a49d8c8f/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/sharon/.gradle/caches/9.7.1/transforms/861cee24c40e009e162d3429c3c90711/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/sharon/.gradle/caches/9.7.1/transforms/861cee24c40e009e162d3429c3c90711/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /home/sharon/.gradle/caches/9.7.1/transforms/ddb0891836a151b55473167971d896ae/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /home/sharon/.gradle/caches/9.7.1/transforms/ddb0891836a151b55473167971d896ae/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.mediapipe:tasks-genai:0.10.35] /home/sharon/.gradle/caches/9.7.1/transforms/350f981c8dff75cf13e6622e2a70b1bb/transformed/tasks-genai-0.10.35/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.mediapipe:tasks-genai:0.10.35] /home/sharon/.gradle/caches/9.7.1/transforms/350f981c8dff75cf13e6622e2a70b1bb/transformed/tasks-genai-0.10.35/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/sharon/.gradle/caches/9.7.1/transforms/cfb2d2f68912b81aa99eca4187897728/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/sharon/.gradle/caches/9.7.1/transforms/cfb2d2f68912b81aa99eca4187897728/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /home/sharon/.gradle/caches/9.7.1/transforms/92588dcb00a3801ce67d7ab4f48442fd/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /home/sharon/.gradle/caches/9.7.1/transforms/92588dcb00a3801ce67d7ab4f48442fd/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.6.0] /home/sharon/.gradle/caches/9.7.1/transforms/cbfaca68a99e4897630fee74cef1a4f5/transformed/activity-1.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.6.0] /home/sharon/.gradle/caches/9.7.1/transforms/cbfaca68a99e4897630fee74cef1a4f5/transformed/activity-1.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/sharon/.gradle/caches/9.7.1/transforms/2f02872fa084a675eb8924d94a93ad35/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/sharon/.gradle/caches/9.7.1/transforms/2f02872fa084a675eb8924d94a93ad35/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/sharon/.gradle/caches/9.7.1/transforms/9784424ba41b4cc427a39cdad2a63931/transformed/emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/sharon/.gradle/caches/9.7.1/transforms/9784424ba41b4cc427a39cdad2a63931/transformed/emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/sharon/.gradle/caches/9.7.1/transforms/a62e12420ae38d90f2fb61546b1ccae5/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/sharon/.gradle/caches/9.7.1/transforms/a62e12420ae38d90f2fb61546b1ccae5/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/sharon/.gradle/caches/9.7.1/transforms/1697ac9ec055b4de20062177bc2fe6ae/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/sharon/.gradle/caches/9.7.1/transforms/1697ac9ec055b4de20062177bc2fe6ae/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/sharon/.gradle/caches/9.7.1/transforms/cb7445ae870314dacc31901df3977934/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/sharon/.gradle/caches/9.7.1/transforms/cb7445ae870314dacc31901df3977934/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /home/sharon/.gradle/caches/9.7.1/transforms/605680ab99f589723f549d864265d0d3/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /home/sharon/.gradle/caches/9.7.1/transforms/605680ab99f589723f549d864265d0d3/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/sharon/.gradle/caches/9.7.1/transforms/bb54d5e13e471876d608060853160f76/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/sharon/.gradle/caches/9.7.1/transforms/bb54d5e13e471876d608060853160f76/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/sharon/.gradle/caches/9.7.1/transforms/1bfc2ca5f50d704088a02b9bc1d9f040/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/sharon/.gradle/caches/9.7.1/transforms/1bfc2ca5f50d704088a02b9bc1d9f040/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/sharon/.gradle/caches/9.7.1/transforms/9d8cdf9503846b2b2482528e7a59e442/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/sharon/.gradle/caches/9.7.1/transforms/9d8cdf9503846b2b2482528e7a59e442/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/sharon/.gradle/caches/9.7.1/transforms/bac8565985ef6a90ad6cf76b1abbf368/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/sharon/.gradle/caches/9.7.1/transforms/bac8565985ef6a90ad6cf76b1abbf368/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /home/sharon/.gradle/caches/9.7.1/transforms/6cb4a14304d536e1d676e680038cbc79/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /home/sharon/.gradle/caches/9.7.1/transforms/6cb4a14304d536e1d676e680038cbc79/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /home/sharon/.gradle/caches/9.7.1/transforms/2dfb4bcaac21a4b02cfda3ba3be1256b/transformed/lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /home/sharon/.gradle/caches/9.7.1/transforms/2dfb4bcaac21a4b02cfda3ba3be1256b/transformed/lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.9.0] /home/sharon/.gradle/caches/9.7.1/transforms/b44350edf98248e051fe0e2aa3454803/transformed/core-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] /home/sharon/.gradle/caches/9.7.1/transforms/b44350edf98248e051fe0e2aa3454803/transformed/core-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/sharon/.gradle/caches/9.7.1/transforms/a87d3515c4324a1ad7da5ce1c52d13d2/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/sharon/.gradle/caches/9.7.1/transforms/a87d3515c4324a1ad7da5ce1c52d13d2/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/sharon/.gradle/caches/9.7.1/transforms/c6628a7642235ba73fcfd54abe1782c3/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/sharon/.gradle/caches/9.7.1/transforms/c6628a7642235ba73fcfd54abe1782c3/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /home/sharon/.gradle/caches/9.7.1/transforms/3efbd4658ec4ae1a2845b7aaddb1e0ca/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /home/sharon/.gradle/caches/9.7.1/transforms/3efbd4658ec4ae1a2845b7aaddb1e0ca/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.9.0] /home/sharon/.gradle/caches/9.7.1/transforms/76f345f88169b111597b4d3ac8c723a0/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] /home/sharon/.gradle/caches/9.7.1/transforms/76f345f88169b111597b4d3ac8c723a0/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/sharon/.gradle/caches/9.7.1/transforms/4eb931a3181e6e86893be571a7d2bc54/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/sharon/.gradle/caches/9.7.1/transforms/4eb931a3181e6e86893be571a7d2bc54/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/sharon/.gradle/caches/9.7.1/transforms/078177aa5f84b52647320998dbd1626f/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/sharon/.gradle/caches/9.7.1/transforms/078177aa5f84b52647320998dbd1626f/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /home/sharon/.gradle/caches/9.7.1/transforms/b54fea5dd66d66e8cab530b2b1941ce1/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /home/sharon/.gradle/caches/9.7.1/transforms/b54fea5dd66d66e8cab530b2b1941ce1/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /home/sharon/.gradle/caches/9.7.1/transforms/0f423d755d23642924ba644b3a796252/transformed/savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /home/sharon/.gradle/caches/9.7.1/transforms/0f423d755d23642924ba644b3a796252/transformed/savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /home/sharon/.gradle/caches/9.7.1/transforms/4dd4fdf7a1132c1e7960a16cf80c0850/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/sharon/.gradle/caches/9.7.1/transforms/4dd4fdf7a1132c1e7960a16cf80c0850/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/sharon/.gradle/caches/9.7.1/transforms/0a6252fc9d74b805c43855732b6e31b6/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/sharon/.gradle/caches/9.7.1/transforms/0a6252fc9d74b805c43855732b6e31b6/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/sharon/.gradle/caches/9.7.1/transforms/c0cf7564ad9a2ba1c095d2195494bdbb/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/sharon/.gradle/caches/9.7.1/transforms/c0cf7564ad9a2ba1c095d2195494bdbb/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/sharon/.gradle/caches/9.7.1/transforms/99bb7fe595776cfd9d2af5f2c2895537/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/sharon/.gradle/caches/9.7.1/transforms/99bb7fe595776cfd9d2af5f2c2895537/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/sharon/.gradle/caches/9.7.1/transforms/544f18873f62130b61ad70b689d58ff3/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/sharon/.gradle/caches/9.7.1/transforms/544f18873f62130b61ad70b689d58ff3/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /home/sharon/.gradle/caches/9.7.1/transforms/be6bad4cd834c530a9e168f1a592295f/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /home/sharon/.gradle/caches/9.7.1/transforms/be6bad4cd834c530a9e168f1a592295f/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/sharon/.gradle/caches/9.7.1/transforms/6845685335ef56cc112d7df8278e7833/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/sharon/.gradle/caches/9.7.1/transforms/6845685335ef56cc112d7df8278e7833/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/sharon/.gradle/caches/9.7.1/transforms/84833e27c4091718c0151382c4ad887a/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/sharon/.gradle/caches/9.7.1/transforms/84833e27c4091718c0151382c4ad887a/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/sharon/.gradle/caches/9.7.1/transforms/81a0e2a2c5894527fa3f17407362a1cf/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/sharon/.gradle/caches/9.7.1/transforms/81a0e2a2c5894527fa3f17407362a1cf/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/sharon/.gradle/caches/9.7.1/transforms/9fe6cd59f372f485c55648e81ff80706/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/sharon/.gradle/caches/9.7.1/transforms/9fe6cd59f372f485c55648e81ff80706/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/sharon/.gradle/caches/9.7.1/transforms/c54fe44cbb55e2b58a6dbe35b48fd81c/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/sharon/.gradle/caches/9.7.1/transforms/c54fe44cbb55e2b58a6dbe35b48fd81c/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/sharon/.gradle/caches/9.7.1/transforms/e219090f5d6cf8906e91ea4d1155182b/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/sharon/.gradle/caches/9.7.1/transforms/e219090f5d6cf8906e91ea4d1155182b/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from /home/sharon/robo_andy/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/sharon/robo_andy/app/src/main/AndroidManifest.xml
+uses-native-library
+ADDED from [com.google.mediapipe:tasks-genai:0.10.35] /home/sharon/.gradle/caches/9.7.1/transforms/350f981c8dff75cf13e6622e2a70b1bb/transformed/tasks-genai-0.10.35/AndroidManifest.xml:15:9-17:40
+	android:required
+		ADDED from [com.google.mediapipe:tasks-genai:0.10.35] /home/sharon/.gradle/caches/9.7.1/transforms/350f981c8dff75cf13e6622e2a70b1bb/transformed/tasks-genai-0.10.35/AndroidManifest.xml:17:13-37
+	android:name
+		ADDED from [com.google.mediapipe:tasks-genai:0.10.35] /home/sharon/.gradle/caches/9.7.1/transforms/350f981c8dff75cf13e6622e2a70b1bb/transformed/tasks-genai-0.10.35/AndroidManifest.xml:16:13-40
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] /home/sharon/.gradle/caches/9.7.1/transforms/9784424ba41b4cc427a39cdad2a63931/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/sharon/.gradle/caches/9.7.1/transforms/078177aa5f84b52647320998dbd1626f/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/sharon/.gradle/caches/9.7.1/transforms/078177aa5f84b52647320998dbd1626f/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/sharon/.gradle/caches/9.7.1/transforms/0a6252fc9d74b805c43855732b6e31b6/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/sharon/.gradle/caches/9.7.1/transforms/0a6252fc9d74b805c43855732b6e31b6/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/sharon/.gradle/caches/9.7.1/transforms/9784424ba41b4cc427a39cdad2a63931/transformed/emoji2-1.2.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/sharon/.gradle/caches/9.7.1/transforms/9784424ba41b4cc427a39cdad2a63931/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/sharon/.gradle/caches/9.7.1/transforms/9784424ba41b4cc427a39cdad2a63931/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/sharon/.gradle/caches/9.7.1/transforms/9784424ba41b4cc427a39cdad2a63931/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] /home/sharon/.gradle/caches/9.7.1/transforms/9784424ba41b4cc427a39cdad2a63931/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/sharon/.gradle/caches/9.7.1/transforms/9784424ba41b4cc427a39cdad2a63931/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/sharon/.gradle/caches/9.7.1/transforms/9784424ba41b4cc427a39cdad2a63931/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /home/sharon/.gradle/caches/9.7.1/transforms/76f345f88169b111597b4d3ac8c723a0/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] /home/sharon/.gradle/caches/9.7.1/transforms/76f345f88169b111597b4d3ac8c723a0/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /home/sharon/.gradle/caches/9.7.1/transforms/76f345f88169b111597b4d3ac8c723a0/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+permission#com.local.assistant.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /home/sharon/.gradle/caches/9.7.1/transforms/76f345f88169b111597b4d3ac8c723a0/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] /home/sharon/.gradle/caches/9.7.1/transforms/76f345f88169b111597b4d3ac8c723a0/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /home/sharon/.gradle/caches/9.7.1/transforms/76f345f88169b111597b4d3ac8c723a0/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /home/sharon/.gradle/caches/9.7.1/transforms/76f345f88169b111597b4d3ac8c723a0/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /home/sharon/.gradle/caches/9.7.1/transforms/76f345f88169b111597b4d3ac8c723a0/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+uses-permission#com.local.assistant.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /home/sharon/.gradle/caches/9.7.1/transforms/76f345f88169b111597b4d3ac8c723a0/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /home/sharon/.gradle/caches/9.7.1/transforms/76f345f88169b111597b4d3ac8c723a0/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/sharon/.gradle/caches/9.7.1/transforms/078177aa5f84b52647320998dbd1626f/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/sharon/.gradle/caches/9.7.1/transforms/078177aa5f84b52647320998dbd1626f/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/sharon/.gradle/caches/9.7.1/transforms/078177aa5f84b52647320998dbd1626f/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78

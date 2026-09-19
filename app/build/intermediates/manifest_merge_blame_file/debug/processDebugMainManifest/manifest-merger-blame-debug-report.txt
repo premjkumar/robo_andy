@@ -1,0 +1,114 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.local.assistant"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/sharon/robo_andy/app/src/main/AndroidManifest.xml:3:5-67
+11-->/home/sharon/robo_andy/app/src/main/AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+12-->/home/sharon/robo_andy/app/src/main/AndroidManifest.xml:4:5-71
+12-->/home/sharon/robo_andy/app/src/main/AndroidManifest.xml:4:22-68
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->/home/sharon/robo_andy/app/src/main/AndroidManifest.xml:5:5-65
+13-->/home/sharon/robo_andy/app/src/main/AndroidManifest.xml:5:22-62
+14
+15    <permission
+15-->[androidx.core:core:1.9.0] /home/sharon/.gradle/caches/9.7.1/transforms/76f345f88169b111597b4d3ac8c723a0/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+16        android:name="com.local.assistant.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+16-->[androidx.core:core:1.9.0] /home/sharon/.gradle/caches/9.7.1/transforms/76f345f88169b111597b4d3ac8c723a0/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+17        android:protectionLevel="signature" />
+17-->[androidx.core:core:1.9.0] /home/sharon/.gradle/caches/9.7.1/transforms/76f345f88169b111597b4d3ac8c723a0/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+18
+19    <uses-permission android:name="com.local.assistant.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+19-->[androidx.core:core:1.9.0] /home/sharon/.gradle/caches/9.7.1/transforms/76f345f88169b111597b4d3ac8c723a0/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+19-->[androidx.core:core:1.9.0] /home/sharon/.gradle/caches/9.7.1/transforms/76f345f88169b111597b4d3ac8c723a0/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+20
+21    <application
+21-->/home/sharon/robo_andy/app/src/main/AndroidManifest.xml:7:5-24:19
+22        android:allowBackup="true"
+22-->/home/sharon/robo_andy/app/src/main/AndroidManifest.xml:8:9-35
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.9.0] /home/sharon/.gradle/caches/9.7.1/transforms/76f345f88169b111597b4d3ac8c723a0/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+24        android:debuggable="true"
+25        android:extractNativeLibs="true"
+26        android:icon="@android:drawable/ic_menu_compass"
+26-->/home/sharon/robo_andy/app/src/main/AndroidManifest.xml:9:9-57
+27        android:label="@string/app_name"
+27-->/home/sharon/robo_andy/app/src/main/AndroidManifest.xml:10:9-41
+28        android:roundIcon="@android:drawable/ic_menu_compass"
+28-->/home/sharon/robo_andy/app/src/main/AndroidManifest.xml:11:9-62
+29        android:supportsRtl="true"
+29-->/home/sharon/robo_andy/app/src/main/AndroidManifest.xml:12:9-35
+30        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+30-->/home/sharon/robo_andy/app/src/main/AndroidManifest.xml:13:9-65
+31        <activity
+31-->/home/sharon/robo_andy/app/src/main/AndroidManifest.xml:15:9-22:20
+32            android:name="com.local.assistant.MainActivity"
+32-->/home/sharon/robo_andy/app/src/main/AndroidManifest.xml:16:13-60
+33            android:exported="true" >
+33-->/home/sharon/robo_andy/app/src/main/AndroidManifest.xml:17:13-36
+34            <intent-filter>
+34-->/home/sharon/robo_andy/app/src/main/AndroidManifest.xml:18:13-21:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->/home/sharon/robo_andy/app/src/main/AndroidManifest.xml:19:17-69
+35-->/home/sharon/robo_andy/app/src/main/AndroidManifest.xml:19:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->/home/sharon/robo_andy/app/src/main/AndroidManifest.xml:20:17-77
+37-->/home/sharon/robo_andy/app/src/main/AndroidManifest.xml:20:27-74
+38            </intent-filter>
+39        </activity>
+40
+41        <!--
+42             Applications that target Android S+ require explicit declaration of
+43             any referenced vendor-provided libraries.
+44        -->
+45        <uses-native-library
+45-->[com.google.mediapipe:tasks-genai:0.10.35] /home/sharon/.gradle/caches/9.7.1/transforms/350f981c8dff75cf13e6622e2a70b1bb/transformed/tasks-genai-0.10.35/AndroidManifest.xml:15:9-17:40
+46            android:name="libOpenCL.so"
+46-->[com.google.mediapipe:tasks-genai:0.10.35] /home/sharon/.gradle/caches/9.7.1/transforms/350f981c8dff75cf13e6622e2a70b1bb/transformed/tasks-genai-0.10.35/AndroidManifest.xml:16:13-40
+47            android:required="false" />
+47-->[com.google.mediapipe:tasks-genai:0.10.35] /home/sharon/.gradle/caches/9.7.1/transforms/350f981c8dff75cf13e6622e2a70b1bb/transformed/tasks-genai-0.10.35/AndroidManifest.xml:17:13-37
+48        <uses-native-library
+48-->[com.google.mediapipe:tasks-genai:0.10.35] /home/sharon/.gradle/caches/9.7.1/transforms/350f981c8dff75cf13e6622e2a70b1bb/transformed/tasks-genai-0.10.35/AndroidManifest.xml:15:9-17:40
+49            android:name="libOpenCL-car.so"
+49-->[com.google.mediapipe:tasks-genai:0.10.35] /home/sharon/.gradle/caches/9.7.1/transforms/350f981c8dff75cf13e6622e2a70b1bb/transformed/tasks-genai-0.10.35/AndroidManifest.xml:16:13-40
+50            android:required="false" />
+50-->[com.google.mediapipe:tasks-genai:0.10.35] /home/sharon/.gradle/caches/9.7.1/transforms/350f981c8dff75cf13e6622e2a70b1bb/transformed/tasks-genai-0.10.35/AndroidManifest.xml:17:13-37
+51        <uses-native-library
+51-->[com.google.mediapipe:tasks-genai:0.10.35] /home/sharon/.gradle/caches/9.7.1/transforms/350f981c8dff75cf13e6622e2a70b1bb/transformed/tasks-genai-0.10.35/AndroidManifest.xml:15:9-17:40
+52            android:name="libOpenCL-pixel.so"
+52-->[com.google.mediapipe:tasks-genai:0.10.35] /home/sharon/.gradle/caches/9.7.1/transforms/350f981c8dff75cf13e6622e2a70b1bb/transformed/tasks-genai-0.10.35/AndroidManifest.xml:16:13-40
+53            android:required="false" />
+53-->[com.google.mediapipe:tasks-genai:0.10.35] /home/sharon/.gradle/caches/9.7.1/transforms/350f981c8dff75cf13e6622e2a70b1bb/transformed/tasks-genai-0.10.35/AndroidManifest.xml:17:13-37
+54
+55        <provider
+55-->[androidx.emoji2:emoji2:1.2.0] /home/sharon/.gradle/caches/9.7.1/transforms/9784424ba41b4cc427a39cdad2a63931/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+56            android:name="androidx.startup.InitializationProvider"
+56-->[androidx.emoji2:emoji2:1.2.0] /home/sharon/.gradle/caches/9.7.1/transforms/9784424ba41b4cc427a39cdad2a63931/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+57            android:authorities="com.local.assistant.androidx-startup"
+57-->[androidx.emoji2:emoji2:1.2.0] /home/sharon/.gradle/caches/9.7.1/transforms/9784424ba41b4cc427a39cdad2a63931/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+58            android:exported="false" >
+58-->[androidx.emoji2:emoji2:1.2.0] /home/sharon/.gradle/caches/9.7.1/transforms/9784424ba41b4cc427a39cdad2a63931/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+59            <meta-data
+59-->[androidx.emoji2:emoji2:1.2.0] /home/sharon/.gradle/caches/9.7.1/transforms/9784424ba41b4cc427a39cdad2a63931/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+60                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+60-->[androidx.emoji2:emoji2:1.2.0] /home/sharon/.gradle/caches/9.7.1/transforms/9784424ba41b4cc427a39cdad2a63931/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+61                android:value="androidx.startup" />
+61-->[androidx.emoji2:emoji2:1.2.0] /home/sharon/.gradle/caches/9.7.1/transforms/9784424ba41b4cc427a39cdad2a63931/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+62            <meta-data
+62-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/sharon/.gradle/caches/9.7.1/transforms/078177aa5f84b52647320998dbd1626f/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+63                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+63-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/sharon/.gradle/caches/9.7.1/transforms/078177aa5f84b52647320998dbd1626f/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+64                android:value="androidx.startup" />
+64-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/sharon/.gradle/caches/9.7.1/transforms/078177aa5f84b52647320998dbd1626f/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+65        </provider>
+66    </application>
+67
+68</manifest>
