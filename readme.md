@@ -78,10 +78,4 @@ This project is licensed under the MIT License - feel free to adapt it for your 
 
 ***
 
-If you'd like to create the file directly from your Fedora terminal in one go, you can run this quick command:
 
-```bash
-cat << 'EOF' > README.md
-# robo_andy 🤖
-... (paste contents here) ...
-EOF
