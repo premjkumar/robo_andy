@@ -14,7 +14,7 @@ import java.util.Locale
 
 class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
 
-    private lateinit var modelRepository: ModelRepository
+    private lateinit var assistantManager: AssistantManager
     private lateinit var promptEditText: EditText
     private lateinit var sendButton: Button
     private lateinit var responseTextView: TextView
@@ -25,8 +25,6 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        modelRepository = ModelRepository(this)
-        
         promptEditText = findViewById(R.id.promptEditText)
         sendButton = findViewById(R.id.sendButton)
         responseTextView = findViewById(R.id.responseTextView)
@@ -34,25 +32,19 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
 
         textToSpeech = TextToSpeech(this, this)
 
-        lifecycleScope.launch {
-            val modelUrl = "YOUR_MODEL_DOWNLOAD_URL_HERE"
-            val fileName = "model.task"
-            statusTextView.text = "Initializing model..."
-            
-            // Note: If you removed setTemperature from ModelRepository, make sure the initializeModel call matches its parameters
-            val success = modelRepository.initializeModel(modelUrl, fileName, 0.7f) { progress ->
-                runOnUiThread {
-                    statusTextView.text = "Downloading model: $progress%"
+        assistantManager = AssistantManager(this) { status, loaded ->
+            runOnUiThread {
+                statusTextView.text = status
+                if (loaded) {
+                    responseTextView.text = "Model ready. Enter a prompt below."
                 }
             }
-            
-            if (success) {
-                statusTextView.text = "Model ready."
-                responseTextView.text = "Model ready. Enter a prompt below."
-            } else {
-                statusTextView.text = "Initialization failed."
-                responseTextView.text = "Failed to initialize model."
-            }
+        }
+
+        lifecycleScope.launch {
+            // Must match the filename placed inside app/src/main/assets/
+            val fileName = "model.litertlm"
+            assistantManager.initializeModelFromAssets(fileName)
         }
 
         sendButton.setOnClickListener {
@@ -67,16 +59,10 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
 
     private fun callLocalModel(prompt: String) {
         lifecycleScope.launch {
-            try {
-                responseTextView.text = "Thinking..."
-                val response = modelRepository.generateResponse(prompt)
-                responseTextView.text = response
-                speakOut(response)
-            } catch (e: Exception) {
-                val errorMsg = "Error: ${e.localizedMessage}"
-                responseTextView.text = errorMsg
-                Log.e("LocalModel", errorMsg, e)
-            }
+            responseTextView.text = "Thinking..."
+            val response = assistantManager.generateResponse(prompt)
+            responseTextView.text = response
+            speakOut(response)
         }
     }
 
@@ -86,16 +72,12 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
 
     override fun onInit(status: Int) {
         if (status == TextToSpeech.SUCCESS) {
-            val result = textToSpeech?.setLanguage(Locale.US)
-            if (result == TextToSpeech.LANG_MISSING_DATA || result == TextToSpeech.LANG_NOT_SUPPORTED) {
-                Log.e("TTS", "The Language specified is not supported!")
-            }
-        } else {
-            Log.e("TTS", "Initialization Failed!")
+            textToSpeech?.language = Locale.US
         }
     }
 
     override fun onDestroy() {
+        assistantManager.close()
         textToSpeech?.stop()
         textToSpeech?.shutdown()
         super.onDestroy()

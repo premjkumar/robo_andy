@@ -6,6 +6,8 @@ import com.google.ai.edge.litertlm.Engine
 import com.google.ai.edge.litertlm.EngineConfig
 import com.google.ai.edge.litertlm.Backend
 import com.google.ai.edge.litertlm.Conversation
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
 import java.io.File
 
 class AssistantManager(
@@ -17,21 +19,34 @@ class AssistantManager(
     var isInitialized: Boolean = false
         private set
 
-    fun initializeModel(modelPath: String) {
+    companion object {
+        private const val TAG = "AssistantManager"
+    }
+
+    suspend fun initializeModelFromAssets(fileName: String) = withContext(Dispatchers.IO) {
         try {
-            callback?.invoke("Initializing LiteRT-LM model...", false)
-            val file = File(modelPath)
-            if (!file.exists()) {
-                val errorMsg = "Model file not found at: $modelPath"
-                Log.e("AssistantManager", errorMsg)
-                callback?.invoke(errorMsg, false)
-                isInitialized = false
-                return
+            callback?.invoke("Loading model from assets...", false)
+            
+            // Copy asset to internal files directory for LiteRT access
+            val outFile = File(context.filesDir, fileName)
+            if (!outFile.exists()) {
+                context.assets.open(fileName).use { input ->
+                    outFile.outputStream().use { output ->
+                        input.copyTo(output)
+                    }
+                }
             }
 
-            // Configure LiteRT-LM engine with CPU backend
+            if (!outFile.exists() || outFile.length() == 0L) {
+                val err = "Model asset not found or empty: $fileName"
+                Log.e(TAG, err)
+                callback?.invoke(err, false)
+                return@withContext
+            }
+
+            callback?.invoke("Initializing LiteRT-LM engine...", false)
             val config = EngineConfig(
-                modelPath = file.absolutePath,
+                modelPath = outFile.absolutePath,
                 backend = Backend.CPU()
             )
             
@@ -40,11 +55,11 @@ class AssistantManager(
             conversation = engine?.createConversation()
             
             isInitialized = true
-            Log.d("AssistantManager", "LiteRT-LM model initialized successfully.")
-            callback?.invoke("Model initialized successfully.", true)
+            Log.d(TAG, "LiteRT-LM model initialized successfully from assets.")
+            callback?.invoke("Model ready.", true)
         } catch (e: Exception) {
             isInitialized = false
-            Log.e("AssistantManager", "Failed to initialize LiteRT-LM engine", e)
+            Log.e(TAG, "Failed to initialize LiteRT-LM from assets", e)
             callback?.invoke("Initialization failed: ${e.message}", false)
         }
     }
@@ -57,7 +72,7 @@ class AssistantManager(
             val responseMessage = conversation?.sendMessage(prompt)
             responseMessage?.toString() ?: "Model returned an empty response."
         } catch (e: Exception) {
-            Log.e("AssistantManager", "Error during LiteRT-LM inference", e)
+            Log.e(TAG, "Error during LiteRT-LM inference", e)
             "Error generating response: ${e.message}"
         }
     }
@@ -67,7 +82,7 @@ class AssistantManager(
             conversation?.close()
             engine?.close()
         } catch (e: Exception) {
-            Log.e("AssistantManager", "Error closing LiteRT-LM resources", e)
+            Log.e(TAG, "Error closing LiteRT-LM resources", e)
         } finally {
             conversation = null
             engine = null
