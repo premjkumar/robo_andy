@@ -19,7 +19,6 @@ class ModelRepository(private val context: Context) {
 
     companion object {
         private const val TAG = "ModelRepository"
-        // Expected minimum size for Gemma 3 270M task file (~160MB)
         private const val MIN_MODEL_SIZE_BYTES = 100_000_000L 
     }
 
@@ -27,7 +26,6 @@ class ModelRepository(private val context: Context) {
         try {
             val modelFile = File(context.filesDir, fileName)
             
-            // 1. Download if missing, empty, or corrupted/too small
             if (!modelFile.exists() || modelFile.length() < MIN_MODEL_SIZE_BYTES) {
                 if (modelFile.exists()) modelFile.delete()
                 
@@ -60,36 +58,26 @@ class ModelRepository(private val context: Context) {
                     }
                 }
                 
-                // Validate final file size after download
                 if (modelFile.length() < MIN_MODEL_SIZE_BYTES) {
-                    Log.e(TAG, "Downloaded file is incomplete (${modelFile.length()} bytes). Deleting.")
+                    Log.e(TAG, "Downloaded file is incomplete. Deleting.")
                     modelFile.delete()
                     return@withContext false
                 }
-                
-                Log.i(TAG, "Model download complete. File size: ${modelFile.length()} bytes")
-            } else {
-                Log.i(TAG, "Using existing model file: ${modelFile.absolutePath} (${modelFile.length()} bytes)")
             }
 
-            // 2. Validate zip structure before passing to MediaPipe
             if (!isValidZip(modelFile)) {
-                Log.e(TAG, "Model file is not a valid zip archive. Deleting corrupted file.")
+                Log.e(TAG, "Model file is not a valid zip archive. Deleting.")
                 modelFile.delete()
                 return@withContext false
             }
 
-            // 3. Initialize MediaPipe LlmInference options
-            Log.i(TAG, "Initializing LlmInference from path: ${modelFile.absolutePath}")
             val options = LlmInference.LlmInferenceOptions.builder()
                 .setModelPath(modelFile.absolutePath)
                 .setMaxTokens(512)
-                .setTemperature(temperature)
                 .build()
 
             llmInference = LlmInference.createFromOptions(context, options)
             isInitialized = true
-            Log.i(TAG, "LlmInference initialized successfully!")
             true
         } catch (e: Exception) {
             Log.e(TAG, "Failed to initialize model: ${e.message}", e)
